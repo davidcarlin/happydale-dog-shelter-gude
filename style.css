@@ -14,16 +14,24 @@ body {
 }
 
 header {
-  /* your code */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center
 }
 
 main {
-  /* your code */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 main nav {
   border: .1rem solid purple;
   padding: 1rem;
-  /* your code */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 main a {
   width: 5rem;
@@ -33,7 +41,9 @@ main a {
 }
 
 .dog-list-container {
-  /* your code */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
 
 .fluid-text {
@@ -41,7 +51,9 @@ main a {
 }
 
 .desktop-nav {
-  display:block;
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 .single-dog-card {
